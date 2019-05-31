@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding: 0;
+	border:none;
+	box-sizing: border-box;
+		
+}
+.clearfix:after{
+		content:' ';
+		display:block;
+		clear:both;
+}
+li{
+	list-style: none;
+}
+.big-div{
+	margin: 10px;
+}
+#out-line{
+	max-width: 800px;
+	margin: 0px auto;
+
+}
+#header{
+
+	background-color: white;
+}
+#header > div{
+	border: 1px dashed blue;
+	padding: 30px;
+}
+#logo{
+	float: left;
+	width: 30%;
+}
+#searching{
+	float: left;
+	width: 45%;
+}
+#contact{
+	float: right;
+	width: 25%;
+}
+#nav{
+	border: 1px dashed blue;
+	padding: 10px;
+}
+#nav ul>li{
+	float: left;
+	margin:5px;
+	padding: 2px; 
+	border: 1px dashed blue;
+}
+#login-link{
+	float: right;
+}
+#news{
+	border: 1px dashed blue;
+	display: block;
+	padding:10px;
+}
+#news p,h1{
+	float: left;
+	margin-right:  20px;
+}
+#content-list{
+	float: left;
+	width: 200px;
+	border:  1px dashed blue;
+	padding: 2px;
+}
+.content-list-header{
+	background-color: blue;
+	color: white;
+	text-align: center;
+	border:  1px dashed blue;
+}
+.content-list-detail{
+
+	color: blue;
+	text-align: center;
+	border:  1px dashed blue;
+}
+#content-item{
+	float: right;
+	width: calc(100% - 200px - 10px);
+	border:  1px dashed blue;
+	padding: 2px;
+}
+#content-newest-item{
+	display: block;
+	background-color: lightblue;
+	border:  1px dashed blue;
+	padding: 2px;
+}
+.item{
+	float: left;
+	width: 25%;
+  	border:  1px dashed blue;
+	padding: 2px;
+}
+.item div{
+	display: block;
+	text-align: center;
+}
